@@ -1,0 +1,36 @@
+2026-04-20 23:31:56 [INFO] lotm_rag.configure_ollama: Ollama LLM and embedding models configured.
+2026-04-20 23:31:57 [INFO] epub_parser.parse_epub: Parsing: 'Lord of Mysteries Volume 1: Clown' (./books/Lord of Mysteries Volume 1 Clown (Cuttlefish That Loves Diving) (Z-Library).epub)
+2026-04-20 23:31:57 [INFO] epub_parser.parse_epub: Parsing: 'Lord of Mysteries Volume 2: Faceless' (./books/Lord of Mysteries Volume 2 Faceless (Cuttlefish That Loves Diving) (Z-Library).epub)
+2026-04-20 23:31:57 [INFO] epub_parser.parse_epub: Parsing: 'Lord of Mysteries Volume 3: Traveler' (./books/Lord of Mysteries Volume 3 Traveler (Cuttlefish That Loves Diving) (Z-Library).epub)
+2026-04-20 23:31:58 [INFO] epub_parser.parse_epub: Parsing: 'Lord of Mysteries Volume 4: Undying' (./books/Lord of Mysteries Volume 4 Undying (Cuttlefish That Loves Diving) (Z-Library).epub)
+2026-04-20 23:31:58 [INFO] epub_parser.parse_epub: Parsing: 'Lord of Mysteries Volume 5: Red Priest' (./books/Lord of Mysteries Volume 5 Red Priest (Cuttlefish That Loves Diving) (Z-Library).epub)
+2026-04-20 23:31:58 [INFO] epub_parser.parse_epub: Parsing: 'Lord of Mysteries Volume 6: Lightseeker' (./books/Lord of Mysteries Volume 6 Lightseeker (Cuttlefish That Loves Diving (爱潜水的乌贼)) (z-library.sk, 1lib.sk, z-lib.sk).epub)
+2026-04-20 23:31:59 [INFO] epub_parser.parse_epub: Parsing: 'Lord of Mysteries Volume 7: The Hanged Man' (./books/Lord of Mysteries Volume 7 The Hanged Man (Cuttlefish That Loves Diving) (Z-Library).epub)
+2026-04-20 23:31:59 [INFO] epub_parser.parse_epub: Parsing: 'Lord of Mysteries Volume 8: Fool' (./books/Lord of Mysteries Volume 8 Fool (Cuttlefish That Loves Diving) (Z-Library).epub)
+2026-04-20 23:31:59 [INFO] epub_parser.load_epubs: Total documents parsed from all epubs: 1403
+2026-04-20 23:31:59 [INFO] indexer.build_index: Building index with 1403 documents...
+2026-04-20 23:38:58 [INFO] indexer.build_index: Index built and saved to './epub_index'
+2026-04-20 23:42:48 [INFO] lotm_rag.configure_ollama: Ollama LLM and embedding models configured.
+2026-04-20 23:42:48 [INFO] indexer.load_index: Loading index from './epub_index'...
+2026-04-20 23:43:08 [INFO] indexer.load_index: Index loaded successfully.
+2026-04-20 23:44:08 [INFO] lotm_rag.configure_ollama: Ollama LLM and embedding models configured.
+2026-04-20 23:44:08 [INFO] indexer.load_index: Loading index from './epub_index'...
+2026-04-20 23:44:29 [INFO] indexer.load_index: Index loaded successfully.
+2026-04-20 23:46:00 [INFO] lotm_rag.configure_ollama: Ollama LLM and embedding models configured.
+2026-04-20 23:46:00 [INFO] indexer.load_index: Loading index from './epub_index'...
+2026-04-20 23:46:20 [INFO] indexer.load_index: Index loaded successfully.
+2026-04-20 23:46:58 [INFO] lotm_rag.configure_ollama: Ollama LLM and embedding models configured.
+2026-04-20 23:46:58 [INFO] indexer.load_index: Loading index from './epub_index'...
+2026-04-20 23:47:17 [INFO] indexer.load_index: Index loaded successfully.
+2026-04-20 23:47:48 [INFO] lotm_rag.configure_ollama: Ollama LLM and embedding models configured.
+2026-04-20 23:47:48 [INFO] indexer.load_index: Loading index from './epub_index'...
+2026-04-20 23:48:08 [INFO] indexer.load_index: Index loaded successfully.
+2026-04-21 22:15:24 [INFO] lotm_rag.configure_ollama: Ollama LLM and embedding models configured.
+2026-04-21 22:15:24 [INFO] indexer.load_index: Loading index from './epub_index'...
+2026-04-21 22:15:44 [INFO] indexer.load_index: Index loaded successfully.
+2026-04-21 22:16:24 [INFO] lotm_rag.configure_ollama: Ollama LLM and embedding models configured.
+2026-04-21 22:16:24 [INFO] indexer.load_index: Loading index from './epub_index'...
+2026-04-21 22:16:44 [INFO] indexer.load_index: Index loaded successfully.
+2026-04-21 22:18:51 [INFO] lotm_rag.configure_ollama: Ollama LLM and embedding models configured.
+2026-04-21 22:18:51 [INFO] indexer.load_index: Loading index from './epub_index'...
+2026-04-21 22:19:11 [INFO] indexer.load_index: Index loaded successfully.
