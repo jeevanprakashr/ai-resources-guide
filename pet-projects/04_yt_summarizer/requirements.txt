@@ -1,0 +1,7 @@
+haystack-ai
+llama-cpp-haystack
+ollama-haystack
+streamlit
+torch
+yt-dlp
+git+https://github.com/openai/whisper.git

@@ -1,0 +1,6 @@
+python convert_hf_to_gguf.py --outfile ../pet-projects/04_yt_summarizer/llama-2-7b-32k-instruct.gguf ../pet-projects/04_yt_summarizer/llama-2-7b-32k-instruct
+
+cmake -B ./build/
+cmake --build ./build --config Release -j
+
+./build/bin/llama-quantize ../pet-projects/04_yt_summarizer/llama-2-7b-32k-instruct.gguf ../pet-projects/04_yt_summarizer/llama-2-7b-32k-instruct-Q4_K_S.gguf Q4_K_S
