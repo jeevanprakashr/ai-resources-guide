@@ -1,20 +1,11 @@
-from types import UnionType
-from typing import Any
+from typing import TypedDict, Annotated, Sequence, get_type_hints
+import operator
+from langchain_core.messages import BaseMessage
+from langgraph.graph import StateGraph
 
+class AgentState(TypedDict):
+  messages: Annotated[Sequence[int], operator.add]
 
-class Node:
-    def __init__(self, num):
-        self.num = num
+d: AgentState = {"messages": [1, 2, 3]}
+e: AgentState = {"messages": [4, 5, 6]}
 
-    def __or__(self, obj):
-        print("self:", self.num)
-        print("obj:", obj.num)
-        return Node(self.num + obj.num)
-
-    def __ror__(self, val):
-        return self | Node(val)
-
-a = Node(5)
-b = Node(4)
-c = 4 | a
-print(c.num)

@@ -3,4 +3,4 @@
 node_modules/
 **/node_modules
 **/__pycache__
-
+pet-projects/05_agentic_rag/lotm_db
